@@ -1,0 +1,6 @@
+{
+  "mobile.resourceTypes": [
+    "aem-guides-tushar-webpack/components/page"
+  ],
+  "README": "Indicate which page resource types should display the mobile emulators."
+}

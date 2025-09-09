@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/aem-guides-tushar-webpack" mode="merge"/>
+    <filter root="/content/aem-guides-tushar-webpack" mode="merge"/>
+    <filter root="/content/dam/aem-guides-tushar-webpack" mode="merge">
+        <exclude pattern="/content/dam/aem-guides-tushar-webpack(/.*)?"/>
+        <include pattern="/content/dam/aem-guides-tushar-webpack/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/aem-guides-tushar-webpack/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/aem-guides-tushar-webpack" mode="merge"/>
+</workspaceFilter>

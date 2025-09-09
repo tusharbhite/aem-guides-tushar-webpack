@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/aem-guides-tushar-webpack",
+        "create path (nt:unstructured) /content/dam/aem-guides-tushar-webpack/jcr:content",
+        "set properties on /content/dam/aem-guides-tushar-webpack/jcr:content\n  set cq:conf{String} to /conf/aem-guides-tushar-webpack\n  set jcr:title{String} to \"AEM Guides Tushar Webpack\"\nend"
+    ]
+}
