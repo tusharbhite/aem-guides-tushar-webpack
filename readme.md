@@ -2,6 +2,11 @@
 
 This is a project template for AEM-based applications. It is intended as a best-practice set of examples as well as a potential starting point to develop your own functionality.
 
+#Created using command
+
+mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.3.1:generate -D archetypeGroupId=com.adobe.aem -D archetypeArtifactId=aem-project-archetype -D archetypeVersion=54 -D appTitle="AEM Guides Tushar Webpack" -D appId="aem-guides-tushar-webpack" -D artifactId="aem-guides-tushar-webpack" -D groupId="com.tushar.webpack" -D includeDispatcherConfig="n" -D frontendModule="general" -D aemVersion="cloud"
+
+
 ## Modules
 
 The main parts of the template are:
